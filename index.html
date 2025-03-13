@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+  <style>
+    body {
+      font-family: "Karla", sans-serif;
+      font-optical-sizing: auto;
+    }
+
+
+  </style>
+</head>
+
+
+<body class="grid  place-content-center h-screen bg-gray-100">
+
+  <div class="mt-9 bg-white grid grid-cols-2  rounded-xl overflow-hidden  ">
+    <div class="col-span-2 p-10 flex flex-col justify-between gap-4">
+      <p class="text-3xl font-bold text-[#33d1ce]">Join our community</p>
+
+      <p class="text-[#c0df34] font-bold"> 30-day, hassle-free money back guarantee</p>
+
+      <p> Gain access to our full library of tutorials along with expert code reviews.<br>
+      Perfect for any developers who are serious about honing their skills.</p>
+    </div>
+
+
+    <div class="grid p-10 bg-[#2ab2af]">
+     <p class="text-white text-xl"> Monthly Subscription</p>
+
+     <p class="text-cyan-200"><strong class="text-4xl text-white">&dollar;29 </strong> per month</p> 
+
+      <p class="text-gray-50">Full access for less than &dollar;1 a day</p>
+
+      <button class="w-full shadow-2xl bg-[#c0df34] rounded-md hover:bg-[#b9ca6f] text-lg font-bold text-white">Sign Up</button>
+    </div>
+
+
+    <div class="p-10 bg-[#33d1ce] grid gap-4">
+      <p class="text-white text-xl">Why Us</p>
+      <p class="text-cyan-200">Tutorials by industry experts<br>
+      Peer &amp; expert code review<br>
+      Coding exercises<br>
+      Access to our GitHub repos<br>
+      Community forum<br>
+      Flashcard decks<br>
+      New videos every week</p>
+    </div>
+  </div>
+</body>
+
+</html>
